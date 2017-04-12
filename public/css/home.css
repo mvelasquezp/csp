@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,300,400,700);
+*{box-sizing:border-box;font-family:'Open Sans';margin:0;padding:0;}
+a:visited,a:active{color:inherit;}
+html,body{height:100%;margin:0;padding:0;width:100%;}
+body{background-image:url('../images/home.jpg');background-size:100% 100%;background-position:0 0;}
+body>div,body>div>div{height:100%;width:100%;}
+body>div{display:table;}
+body>div>div{display:table-cell;vertical-align:middle;}
+header{margin-bottom:36px;}
+header>table{width:100%;}
+header>table>tbody>tr>td>img{display: inline-block;vertical-align: middle;}
+header>table>tbody>tr>td>.ls-container{display:inline-block;}
+header>table>tbody>tr>td>.ls-container>.ls-item{
+	background:#404040;
+	color:#f8f8f8;
+	display:inline-block;
+	font-size:12px;
+	float:left;
+	padding:10px 5px 5px;
+	text-align:center;
+	text-decoration:none;
+	transition:background 150ms;
+	vertical-align:middle;
+	width:80px;
+}
+header>table>tbody>tr>td>.ls-container>.ls-item:hover{background:#080808;}
+header>table>tbody>tr>td>.ls-container>.ls-item>img{height:32px;}
+nav{background:crimson;display:inline-block;margin:10px;padding:8px 10px;color:whitesmoke;box-shadow:2px 2px 4px #080808;}
+nav>a{color:white;font-size:14px;text-decoration:none;padding:0 5px;transition:color 150ms;}
+nav>a:hover{color:goldenrod;}
+section{padding:0px;}
+.square{display:inline-block;width:48%;margin:10px;box-shadow:2px 2px 4px #080808;vertical-align:top;text-decoration:none;}
+.square-big{height:200px;}
+.square-small{height:150px;}
+.square-white{background-color:#f0f0f0;padding:20px;}
+.square-white h3{color:#009688;font-weight:normal;font-size:36px;margin-top:20px;}
+.square-white p{color:#404040;font-size:16px;}
+.square-white .tr-footer p{color:#0071c1;font-size:13px;margin-top:20px;text-align:right;}
+.square-blue{background-color:#0071c1;color:#f8f8f8;padding:10px;}
+.square-gray{background-color:#404040;}
+.square-gray>div{display:table;height:100%;width:100%;padding:15px 20px 0;}
+.square-gray>div>div{display:table-cell;height:100%;width:100%;}
+.square-gray>div>div>*{color:#f0f0f0;display:inline-block;vertical-align:middle;font-family:'Open Sans';font-size:36px;}
+.square-green{background-color:#019d49;color:#f8f8f8;padding:10px;}
+.square-green h4{font-weight:bold;font-size:14px;}
+.square-green ul{padding-left:15px;}
+.square-green ul li{font-size:13px;}
+.square-green ul li a{color:#f0f0f0;text-decoration:none;}
+.square-green ul li a:hover{text-decoration:underline;}
